@@ -1,0 +1,118 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+**/.xcode.env.local
+*.xcworkspace
+*.xcworkspacedata
+*.xcuserdatad/
+*.xcscheme
+*.xcassets
+ios/Pods/
+
+# Android/IntelliJ
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+*.log
+build/
+captures/
+android/app/debug.keystore
+android/app/release.keystore
+android/.cxx/
+android/.idea/
+android/.gradle/
+android/build/
+android/app/build/
+android/app/.externalNativeBuild/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnp/
+.pnp.js
+
+# Metro bundler cache
+.metro-cache/
+.metro-health-check*
+
+# Jest & Testing
+/coverage/
+jest/
+jest-cache/
+jest-coverage/
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+debug.log*
+
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# CocoaPods
+ios/Pods/
+vendor/bundle/
+ios/.symlinks/
+ios/build/
+ios/DerivedData/
+
+# Temporary files
+temp/
+*.tmp
+*.swp
+*.swo
+*.swn
+.vscode/
+.history/
+*.bak
+
+# Bundle artifacts
+*.jsbundle
+*.pack
+*.map
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Gradle Wrapper
+gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+# Lock files (optional)
+package-lock.json
+yarn.lock
